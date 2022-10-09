@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC47962928F3203600B92C9C /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC47962828F3203600B92C9C /* Binding.swift */; };
 		BCA1D23028F31B7A00C3CB02 /* PropertyWrappersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1D22F28F31B7A00C3CB02 /* PropertyWrappersApp.swift */; };
 		BCA1D23228F31B7A00C3CB02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1D23128F31B7A00C3CB02 /* ContentView.swift */; };
 		BCA1D23428F31B7F00C3CB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA1D23328F31B7F00C3CB02 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC47962828F3203600B92C9C /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
 		BCA1D22C28F31B7A00C3CB02 /* PropertyWrappers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyWrappers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA1D22F28F31B7A00C3CB02 /* PropertyWrappersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappersApp.swift; sourceTree = "<group>"; };
 		BCA1D23128F31B7A00C3CB02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC47962728F31FF800B92C9C /* @Binding */ = {
+			isa = PBXGroup;
+			children = (
+				BC47962828F3203600B92C9C /* Binding.swift */,
+			);
+			path = "@Binding";
+			sourceTree = "<group>";
+		};
 		BCA1D22328F31B7A00C3CB02 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +67,7 @@
 				BCA1D22F28F31B7A00C3CB02 /* PropertyWrappersApp.swift */,
 				BCA1D23128F31B7A00C3CB02 /* ContentView.swift */,
 				BCA1D23D28F31BC300C3CB02 /* @State */,
+				BC47962728F31FF800B92C9C /* @Binding */,
 				BCA1D23328F31B7F00C3CB02 /* Assets.xcassets */,
 				BCA1D23528F31B7F00C3CB02 /* Preview Content */,
 			);
@@ -153,6 +164,7 @@
 				BCA1D23228F31B7A00C3CB02 /* ContentView.swift in Sources */,
 				BCA1D23028F31B7A00C3CB02 /* PropertyWrappersApp.swift in Sources */,
 				BCA1D23F28F31BE200C3CB02 /* State.swift in Sources */,
+				BC47962928F3203600B92C9C /* Binding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
