@@ -29,7 +29,6 @@ struct ParentView: View {
             }
         }
         .padding()
-        
     }
 }
 
