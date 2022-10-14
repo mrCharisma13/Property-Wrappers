@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BC0EFEED28F9B58A00F634C8 /* StateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0EFEEC28F9B58A00F634C8 /* StateObject.swift */; };
+		BC0EFEF028F9BBB400F634C8 /* ObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0EFEEF28F9BBB400F634C8 /* ObservedObject.swift */; };
 		BC47962928F3203600B92C9C /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC47962828F3203600B92C9C /* Binding.swift */; };
 		BCA1D23028F31B7A00C3CB02 /* PropertyWrappersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1D22F28F31B7A00C3CB02 /* PropertyWrappersApp.swift */; };
 		BCA1D23228F31B7A00C3CB02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1D23128F31B7A00C3CB02 /* ContentView.swift */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		BC0EFEEC28F9B58A00F634C8 /* StateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject.swift; sourceTree = "<group>"; };
 		BC0EFEEE28F9B60B00F634C8 /* @StateObject.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "@StateObject.md"; sourceTree = "<group>"; };
+		BC0EFEEF28F9BBB400F634C8 /* ObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObject.swift; sourceTree = "<group>"; };
 		BC47962828F3203600B92C9C /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
 		BC47962A28F3577300B92C9C /* BindingInfo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BindingInfo.md; sourceTree = "<group>"; };
 		BCA1D22C28F31B7A00C3CB02 /* PropertyWrappers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyWrappers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +48,7 @@
 			children = (
 				BC0EFEEE28F9B60B00F634C8 /* @StateObject.md */,
 				BC0EFEEC28F9B58A00F634C8 /* StateObject.swift */,
+				BC0EFEEF28F9BBB400F634C8 /* ObservedObject.swift */,
 			);
 			path = "@StateObject";
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				BCA1D23028F31B7A00C3CB02 /* PropertyWrappersApp.swift in Sources */,
 				BC0EFEED28F9B58A00F634C8 /* StateObject.swift in Sources */,
 				BCA1D23F28F31BE200C3CB02 /* State.swift in Sources */,
+				BC0EFEF028F9BBB400F634C8 /* ObservedObject.swift in Sources */,
 				BC47962928F3203600B92C9C /* Binding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
