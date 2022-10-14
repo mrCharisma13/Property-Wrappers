@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct StateObject1: View {
+struct StateObjectEx: View {
     @StateObject private var playerVolume = MediaPlayer()
     
     var body: some View {
@@ -22,7 +22,7 @@ struct StateObject1: View {
 
 struct StateObject_Previews: PreviewProvider {
     static var previews: some View {
-        StateObject1()
+        StateObjectEx()
     }
 }
 
