@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC0EFEED28F9B58A00F634C8 /* StateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0EFEEC28F9B58A00F634C8 /* StateObject.swift */; };
 		BC47962928F3203600B92C9C /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC47962828F3203600B92C9C /* Binding.swift */; };
 		BCA1D23028F31B7A00C3CB02 /* PropertyWrappersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1D22F28F31B7A00C3CB02 /* PropertyWrappersApp.swift */; };
 		BCA1D23228F31B7A00C3CB02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1D23128F31B7A00C3CB02 /* ContentView.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC0EFEEC28F9B58A00F634C8 /* StateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject.swift; sourceTree = "<group>"; };
+		BC0EFEEE28F9B60B00F634C8 /* @StateObject.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "@StateObject.md"; sourceTree = "<group>"; };
 		BC47962828F3203600B92C9C /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
 		BC47962A28F3577300B92C9C /* BindingInfo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BindingInfo.md; sourceTree = "<group>"; };
 		BCA1D22C28F31B7A00C3CB02 /* PropertyWrappers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyWrappers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC0EFEEB28F9B53100F634C8 /* @StateObject */ = {
+			isa = PBXGroup;
+			children = (
+				BC0EFEEE28F9B60B00F634C8 /* @StateObject.md */,
+				BC0EFEEC28F9B58A00F634C8 /* StateObject.swift */,
+			);
+			path = "@StateObject";
+			sourceTree = "<group>";
+		};
 		BC47962728F31FF800B92C9C /* @Binding */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +80,7 @@
 			children = (
 				BCA1D22F28F31B7A00C3CB02 /* PropertyWrappersApp.swift */,
 				BCA1D23128F31B7A00C3CB02 /* ContentView.swift */,
+				BC0EFEEB28F9B53100F634C8 /* @StateObject */,
 				BCA1D23D28F31BC300C3CB02 /* @State */,
 				BC47962728F31FF800B92C9C /* @Binding */,
 				BCA1D23328F31B7F00C3CB02 /* Assets.xcassets */,
@@ -165,6 +178,7 @@
 			files = (
 				BCA1D23228F31B7A00C3CB02 /* ContentView.swift in Sources */,
 				BCA1D23028F31B7A00C3CB02 /* PropertyWrappersApp.swift in Sources */,
+				BC0EFEED28F9B58A00F634C8 /* StateObject.swift in Sources */,
 				BCA1D23F28F31BE200C3CB02 /* State.swift in Sources */,
 				BC47962928F3203600B92C9C /* Binding.swift in Sources */,
 			);
