@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct PropertyWrappersApp: App {
+    @StateObject var counter: Counter = Counter()
+    
     var body: some Scene {
         WindowGroup {
-            ObservedObjectEx()
+            EnvironmentObjectEx()
+                .environmentObject(counter)
         }
     }
 }

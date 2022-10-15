@@ -10,6 +10,7 @@
 		BC0EFEED28F9B58A00F634C8 /* StateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0EFEEC28F9B58A00F634C8 /* StateObject.swift */; };
 		BC0EFEF028F9BBB400F634C8 /* ObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0EFEEF28F9BBB400F634C8 /* ObservedObject.swift */; };
 		BC47962928F3203600B92C9C /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC47962828F3203600B92C9C /* Binding.swift */; };
+		BC7FDBEA28FB3CC2000335B2 /* EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7FDBE928FB3CC2000335B2 /* EnvironmentObject.swift */; };
 		BCA1D23028F31B7A00C3CB02 /* PropertyWrappersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1D22F28F31B7A00C3CB02 /* PropertyWrappersApp.swift */; };
 		BCA1D23228F31B7A00C3CB02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1D23128F31B7A00C3CB02 /* ContentView.swift */; };
 		BCA1D23428F31B7F00C3CB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA1D23328F31B7F00C3CB02 /* Assets.xcassets */; };
@@ -23,6 +24,8 @@
 		BC0EFEEF28F9BBB400F634C8 /* ObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObject.swift; sourceTree = "<group>"; };
 		BC47962828F3203600B92C9C /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
 		BC47962A28F3577300B92C9C /* BindingInfo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BindingInfo.md; sourceTree = "<group>"; };
+		BC7FDBE928FB3CC2000335B2 /* EnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObject.swift; sourceTree = "<group>"; };
+		BC7FDBEB28FB3DBF000335B2 /* @EnvironmentObject.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "@EnvironmentObject.md"; sourceTree = "<group>"; };
 		BCA1D22C28F31B7A00C3CB02 /* PropertyWrappers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyWrappers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA1D22F28F31B7A00C3CB02 /* PropertyWrappersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappersApp.swift; sourceTree = "<group>"; };
 		BCA1D23128F31B7A00C3CB02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +65,15 @@
 			path = "@Binding";
 			sourceTree = "<group>";
 		};
+		BC7FDBE828FB3C8F000335B2 /* @Environmentobject */ = {
+			isa = PBXGroup;
+			children = (
+				BC7FDBEB28FB3DBF000335B2 /* @EnvironmentObject.md */,
+				BC7FDBE928FB3CC2000335B2 /* EnvironmentObject.swift */,
+			);
+			path = "@Environmentobject";
+			sourceTree = "<group>";
+		};
 		BCA1D22328F31B7A00C3CB02 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +95,7 @@
 			children = (
 				BCA1D22F28F31B7A00C3CB02 /* PropertyWrappersApp.swift */,
 				BCA1D23128F31B7A00C3CB02 /* ContentView.swift */,
+				BC7FDBE828FB3C8F000335B2 /* @Environmentobject */,
 				BC0EFEEB28F9B53100F634C8 /* @StateObject */,
 				BCA1D23D28F31BC300C3CB02 /* @State */,
 				BC47962728F31FF800B92C9C /* @Binding */,
@@ -183,6 +196,7 @@
 				BCA1D23028F31B7A00C3CB02 /* PropertyWrappersApp.swift in Sources */,
 				BC0EFEED28F9B58A00F634C8 /* StateObject.swift in Sources */,
 				BCA1D23F28F31BE200C3CB02 /* State.swift in Sources */,
+				BC7FDBEA28FB3CC2000335B2 /* EnvironmentObject.swift in Sources */,
 				BC0EFEF028F9BBB400F634C8 /* ObservedObject.swift in Sources */,
 				BC47962928F3203600B92C9C /* Binding.swift in Sources */,
 			);
