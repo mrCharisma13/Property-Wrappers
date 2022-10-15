@@ -27,7 +27,7 @@ struct EnvironmentObjectEx: View {
 struct _EnvironmentObject_Previews: PreviewProvider {
     static var previews: some View {
         EnvironmentObjectEx()
-        
+            .environmentObject(Counter())
     }
 }
 
