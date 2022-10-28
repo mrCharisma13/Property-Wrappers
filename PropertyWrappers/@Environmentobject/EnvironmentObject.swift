@@ -7,33 +7,56 @@
 
 import SwiftUI
 
-struct EnvironmentObjectEx: View {
-    @EnvironmentObject var counter: Counter
+struct EnvironmentObjectView: View {
+    @EnvironmentObject var image: ImageViewModel
     
     var body: some View {
-        VStack {
-            Text("\(counter.number)")
-            
-            Button {
-                counter.number += 1
-            } label: {
-                Text("Увеличить")
+        NavigationView {
+            VStack {
+                Image(systemName: image.imageName)
+                    .resizable()
+                    .frame(width: 100, height: 100)
+                    .foregroundColor(.yellow)
+                    .padding(.vertical)
+                
+                NavigationLink {
+                    SecondScreenView()
+                } label: {
+                    Text("Идем на следующий экран")
+                }
             }
-
+            .padding()
         }
     }
 }
 
-struct _EnvironmentObject_Previews: PreviewProvider {
-    static var previews: some View {
-        EnvironmentObjectEx()
-            .environmentObject(Counter())
+// MARK: Second screen
+
+struct SecondScreenView: View {
+    @EnvironmentObject var image: ImageViewModel
+    
+    var body: some View {
+        Image(systemName: image.imageName)
+            .resizable()
+            .frame(width: 100, height: 100)
+            .foregroundColor(.yellow)
+            .padding(.vertical)
     }
 }
 
+struct EnvironmentObjectView_Previews: PreviewProvider {
+    static var previews: some View {
+        EnvironmentObjectView()
+            .environmentObject(ImageViewModel())
+    }
+}
 
-//MARK: Model
+//MARK: ViewModel
 
-class Counter: ObservableObject {
-    @Published var number = 0
+class ImageViewModel: ObservableObject {
+    @Published var imageName = ""
+    
+    init() {
+        imageName = "sun.max"
+    }
 }

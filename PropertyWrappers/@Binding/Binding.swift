@@ -32,7 +32,7 @@ struct ParentView: View {
     }
 }
 
-
+//MARK: View второго экрана
 struct ChildView: View {
     
     @Binding var text: String

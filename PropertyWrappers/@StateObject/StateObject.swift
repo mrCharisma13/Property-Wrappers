@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//MARK: View
 struct StateObjectEx: View {
     @StateObject private var playerVolume = MediaPlayer()
     
